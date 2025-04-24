@@ -488,3 +488,98 @@ form input{
         cursor: pointer;
     }
 }
+
+
+
+
+
+
+/*Footer*/
+
+.footer-ctn{
+    background-color: var(--black);
+    bottom: 0;
+}
+
+.footer-ctn .footer-ctn_hdr{
+    padding: 1.5%;
+}
+
+.footer-ctn .footer-ctn_hdr .ftr_hdr_terms li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 3%;
+    padding-bottom: 10px;
+}
+
+
+.footer-ctn .footer-ctn_hdr .ftr_hdr_terms li a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.footer-ctn .footer-ctn_hdr .ftr_hdr_terms li a:hover{
+    color: #8181e4;
+    border-bottom: 1px solid #fff;
+}
+
+
+.footer-ctn .info-ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.footer-ctn .info-ctn .nameApp{
+    font-size: 300%;
+    letter-spacing: 2px;
+    margin-bottom: 1.5%;
+}
+
+.footer-ctn .info-ctn .app_lst-ctn ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 200%;
+    margin: 0 1.5% 1.5% 2%;
+}
+
+.footer-ctn .info-ctn .app_lst-ctn ul li a{
+    color: var(--white);
+}
+
+.footer-ctn .info-ctn .app_lst-ctn ul .fcb a:hover{
+    color: #61a6ff;
+}
+
+.footer-ctn .info-ctn .app_lst-ctn ul .inst a:hover{
+    color: #ca5f21;
+}
+.footer-ctn .info-ctn .app_lst-ctn ul .link a:hover{
+    color: #1e20a1;
+}
+.footer-ctn .info-ctn .app_lst-ctn ul .ytb a:hover{
+    color: #d41515;
+}
+
+.footer-ctn .info-ctn .ubi-ctn span{
+    margin-bottom: 10px;
+}
+
+.footer-ctn .info-ctn .dnwl_app-ctn ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.footer-ctn .info-ctn .dnwl_app-ctn ul li img{
+    width: 120px;
+}
+
+.footer-ctn .info-ctn .end_ftr{
+    font-size: 12px;
+    opacity: 80%;
+    color: #9b9595;
+}
+
