@@ -258,6 +258,43 @@ main .solution-container{
 	}
 }
 
+
+
+
+/* HowWorks */
+.how-Works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.how-Works-container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+
+    svg{
+        width: 40%;
+        height: 40%;
+        margin: 0 10px;
+    }
+
+    .t
+    .txtHowWorks h2{
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
 .about-us{
     padding: 20px;
     width: 100%;
