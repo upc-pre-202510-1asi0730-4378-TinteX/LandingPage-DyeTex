@@ -1019,3 +1019,7 @@ form input{
         display: none;
     }
 }
+
+.blockft{
+    left: 10%!important;
+}
