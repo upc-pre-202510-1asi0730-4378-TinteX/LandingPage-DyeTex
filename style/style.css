@@ -876,3 +876,116 @@ form input{
     object-fit: cover;
 }
 
+/*Responsive page for phone*/
+@media (max-width: 768px) {
+
+    header nav{
+        justify-content: space-between;
+    }
+
+    header nav .main-nav{
+        display: none;
+    }
+
+
+    header nav .logo img{
+        width: 40px;
+        left: 6%;
+    }
+
+    header nav.sticky{
+        background-color: var(--ligthBlue);
+    }
+    
+    .separe-title::before{
+        width: 20%;
+        transform: translate(170%, 20px);
+    }
+
+    .separe-title::after{
+        width: 20%;
+        transform: translate(-170%, 20px);
+    }
+
+    #banner .slogan{
+        font-size: 30px;
+    }
+
+    #banner .vector img{
+        width: 100%;
+        height: 100%;
+    }
+    main .solution-container{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        text-align: center;
+
+        img{
+            margin-bottom: 10px;
+        }
+
+        .txtSolution{
+            width: 100%;
+        }
+    }
+    .how-Works-container{
+        width: 90%;
+    }
+
+    .about-us .about-us-container{
+        width: 90%;
+
+        .flxCnt{
+            flex-direction: column;
+            align-items: center;
+
+            p{
+                width: 100%;
+            }
+            .element{
+                margin: 0 0 20px 0;
+            }
+        }
+    }
+
+    .contact .contact-container{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contactElement{
+        width: 90%;
+    }
+
+    .email-contact form .userInfo {
+        flex-wrap: wrap;
+        justify-content: start;
+        div{
+            width: 100%;
+            flex-wrap: wrap;
+            display: flex;
+            input{
+                width: 100%;
+            }
+        }
+    }
+
+    .email-contact form .userInfo div:nth-child(1){
+        margin-bottom: 20px;
+    }
+
+    .email-contact form .subject-container input,
+    .email-contact form .message-container textarea{
+        width: 100%;
+    }
+
+    .email-contact form .send-contact button{
+        width: 100%;
+    }
+
+    .imgPlanetContainer{
+        display: none;
+    }
+}
