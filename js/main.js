@@ -123,3 +123,11 @@ const chatBox = (sentence) => {
 
   answerBot = finalAnsw;
 }
+
+///////////////////////////////// nav toggle
+const navMenu = document.querySelector(".nav-links-tg")
+const navToggle = document.querySelector(".bar-menu")
+
+navToggle.addEventListener("click", () => {
+  navMenu.classList.toggle("blockft")
+})
