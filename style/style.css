@@ -886,7 +886,37 @@ form input{
     header nav .main-nav{
         display: none;
     }
+	
+.menu-toggle{
+        display: block;
+        font-size: 30px;
+        color: var(--white);
+        z-index: 10000000;
 
+        i{
+            cursor: pointer;
+        }
+    }
+
+    .menu-toggle .nav-links-tg{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 76px;
+        border: #000 solid 1px;
+        height: calc(100vh - 76px);
+        width: 90%;
+        left: 100%;
+        background-color: var(--ligthBlue);
+        font-size: 30px;
+        color: var(--white);
+
+        a{
+            font-size: 22px;
+        }
+
+        transition: left 0.5s ease-in-out;
+    }
 
     header nav .logo img{
         width: 40px;
