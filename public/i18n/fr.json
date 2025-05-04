@@ -1,0 +1,45 @@
+{
+    "header": {
+        "solution": "Solutions",
+        "how-works": "Fonctionnement",
+        "about-us": "À Propos",
+        "contact": "Contact"
+    },
+    "web-title": {
+        "principal": "Des machines qui transforment la qualité à chaque point"
+    },
+    "firstSection": {
+        "title": "Pourquoi nous choisir ?",
+        "text": "Chez DyeTex, nous nous engageons à fournir des solutions innovantes et de haute qualité pour l'industrie textile. Nos produits sont conçus pour améliorer l'efficacité et la qualité de votre production. Offrant des solutions telles que :",
+        "cards-first": "Surveillez les performances des machines en temps réel",
+        "cards-second": "Interface intuitive et outils précis",
+        "cards-third": "Réduction des temps d'arrêt et augmentation de la productivité",
+        "cards-fourth": "Identifiez les pannes potentielles et recevez des notifications",
+        "cards-fifth": "Analyses avancées et rapports détaillés",
+        "cards-sixth": "Améliorez les performances de vos machines grâce à la technologie IoT"
+    },
+    "secondSection": {
+        "title": "Comment ça fonctionne ?",
+        "text": "Notre système est conçu pour être facile à utiliser et à intégrer à vos processus existants. Grâce à notre interface intuitive, vous pouvez surveiller les performances de vos machines en temps réel, recevoir des alertes sur les pannes potentielles et générer des rapports détaillés sur l'efficacité de la production."
+    },
+    "mission": {
+        "title": "Mission",
+        "text": "fournir aux entreprises textiles une solution efficace qui optimise les performances des machines grâce à une surveillance en temps réel, augmentant ainsi la productivité et réduisant les temps d'arrêt grâce à des notifications de maintenance opportunes."
+    },
+    "vision": {
+        "title": "Vision",
+        "text": "devenir la plateforme de référence pour l'industrie textile, en offrant une solution adaptée qui transforme la gestion des machines et le processus de production, contribuant à la croissance industrielle et à la compétitivité des entreprises textiles."
+    },
+    "fouthSection": {
+        "title": "Informations de Contact",
+        "name": "Nom",
+        "email": "E-mail",
+        "your-subject": "Objet",
+        "message": "Message",
+        "send": "Envoyer"
+    },
+    "footer": {
+        "terms-use": "Conditions d'utilisation",
+        "privacy-policy": "Politique de confidentialité"
+    }
+}

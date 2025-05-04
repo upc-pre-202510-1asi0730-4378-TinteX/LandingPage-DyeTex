@@ -185,3 +185,43 @@ const navToggle = document.querySelector(".bar-menu")
 navToggle.addEventListener("click", () => {
   navMenu.classList.toggle("blockft")
 })
+
+
+//////////////////////////////////////// language switcher
+const btnLanguageBox = document.querySelector(".arrow-language")
+const boxLanguageSelect = document.querySelector(".languageBox")
+const langButtons = document.querySelectorAll("[data-language]")
+const textsToChange = document.querySelectorAll("[data-section]")
+const lngText = document.querySelector(".changeLang")
+
+btnLanguageBox.addEventListener("click", () =>{
+  btnLanguageBox.classList.toggle("fa-angle-down")
+  btnLanguageBox.classList.toggle("fa-angle-up")
+
+  boxLanguageSelect.classList.toggle("languageBoxBack")
+
+})
+
+langButtons.forEach((e) =>{
+  e.addEventListener("click",() => {
+    fetch(`../public/i18n/${e.dataset.language}.json`)
+    .then(res => res.json())
+    .then(data => {
+      textsToChange.forEach((elem) =>{
+        const section = elem.dataset.section;
+        const value = elem.dataset.value;
+
+        elem.innerHTML = data[section][value]
+      })
+    })
+
+    lngText.textContent = e.dataset.language
+  })
+})
+  
+
+window.addEventListener("scroll",() => {
+  boxLanguageSelect.classList.remove("languageBoxBack")
+  btnLanguageBox.classList.add("fa-angle-down")
+  btnLanguageBox.classList.remove("fa-angle-up")
+})

@@ -68,6 +68,7 @@ header nav ul{
     li{
         margin: 0 20px;
         font-weight: bolder;
+        color: var(--white);
 
         a{
             text-decoration: none;
@@ -128,6 +129,54 @@ header nav ul li a:hover{
         transform: rotate(180deg);
     }
 }
+
+
+.language-switcher i{
+    cursor: pointer;
+}
+
+.languageBox{
+    background-color: #003366;
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 5rem;
+    align-items: center;
+    border-radius: 20px;
+    top: -100%;
+
+    span{
+        margin: 10px 0;
+        cursor: pointer;
+    }
+}
+
+.languageBox .line-spare::after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    margin-top: -11px;
+    background-color: var(--white);
+}
+
+.languageBox .line-spare::before {
+    content: "";
+    width: 50%;
+    height: 1px;
+    position: absolute;
+    left: 0%;
+    margin-top: 35px;
+    background-color: var(--white);
+}
+
+
+.languageBoxBack{
+    top: 8%;
+}
+
 
 .sticky{
     background-color: var(--ligthBlue);

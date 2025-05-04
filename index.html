@@ -21,20 +21,32 @@
                 </div>
                 <div class="main-nav">
                     <ul class="nav-links">
-                        <li><a href="#solution" class="nav-link firstChild" >Solutions</a></li>
-                        <li><a href="#how-Works" class="nav-link" >How Works?</a></li>
-                        <li><a href="#about-us" class="nav-link" >About Us</a></li>
-                        <li><a href="#contact" class="nav-link" >Contact</a></li>
+                        <li>
+                            <a class="language-switcher">
+                                <span class="changeLang">EN</span> 
+                                &nbsp;
+                                <i class="fa-solid fa-angle-down arrow-language"></i>
+                            </a>
+                            <div class="languageBox">
+                                <span data-language="en" class="lng-initial">EN</span>
+                                <span data-language="es" class="line-spare lng-initial">ES</span>
+                                <span data-language="fr" class="lng-initial">FR</span>
+                            </div>
+                        </li>
+                        <li><a href="#solution" class="nav-link firstChild" data-section="header" data-value="solution">Solutions</a></li>
+                        <li><a href="#how-Works" class="nav-link" data-section="header" data-value="how-works">How Works?</a></li>
+                        <li><a href="#about-us" class="nav-link" data-section="header" data-value="about-us">About Us</a></li>
+                        <li><a href="#contact" class="nav-link" data-section="header" data-value="contact">Contact</a></li>
                         <li><a href="login.html" class="nav-link" >Login</a></li>
                     </ul>
                 </div>
                 <div class="menu-toggle" id="mobile-menu">
                     <i class="fa-solid fa-bars bar-menu"></i>
                     <ul class="nav-links-tg">
-                        <li><a href="#solution" class="nav-link" >Solutions</a></li>
-                        <li><a href="#how-works" class="nav-link" >How Works?</a></li>
-                        <li><a href="#about-us" class="nav-link" >About</a></li>
-                        <li><a href="#contact" class="nav-link" >Contact</a></li>
+                        <li><a href="#solution" class="nav-link" data-section="header" data-value="solution">Solutions</a></li>
+                        <li><a href="#how-works" class="nav-link" data-section="header" data-value="how-works">How Works?</a></li>
+                        <li><a href="#about-us" class="nav-link" data-section="header" data-value="about-us">About</a></li>
+                        <li><a href="#contact" class="nav-link" data-section="header" data-value="contact">Contact</a></li>
                         <li><i class="fast-fa user"><a href="login.html" class="nav-link" >Login</a></i></li>
                     </ul>
                 </div>
@@ -49,36 +61,38 @@
                 <img src="Img/Vector2.png" alt="">
             </div>
             <div class="slogan">
-                <h1>Machines that transform quality into every stitch.</h1>
+                <h1 data-section="web-title" data-value="principal">Machines that transform quality into every stitch.</h1>
             </div>
         </section>
 
         <main>
-            <span class="separe-title" id="solution">Solutions</span>
+            <span class="separe-title" id="solution" data-section="header" data-value="solution">Solutions</span>
             <section class="solution">
                 <div class="solution-container">
                     <img src="Img/descarga (7).jpeg" alt="">
                     <div class="txtSolution">
-                        <h2>Why choose us?</h2>
-                        <p>At DyeTex, we are committed to providing innovative, high-quality solutions for the textile industry. Our products are designed to improve the efficiency and quality of your production. Offering solutions as:</p>
+                        <h2 data-section="firstSection" data-value="title">Why choose us?</h2>
+                        <p data-section="firstSection" data-value="text">
+                            At DyeTex, we are committed to providing innovative, high-quality solutions for the textile industry. Our products are designed to improve the efficiency and quality of your production. Offering solutions as:
+                        </p>
                         <div class="carousel-container">
                             <div class="carousel-cards">
-                                <div class="solution-card">
+                                <div class="solution-card" data-section="firstSection" data-value="cards-first">
                                     Monitor machine performance in real time
                                 </div>
-                                <div class="solution-card">
+                                <div class="solution-card" data-section="firstSection" data-value="cards-second">
                                     Intuitive interface and precise tools
                                 </div>
-                                <div class="solution-card">
+                                <div class="solution-card" data-section="firstSection" data-value="cards-third">
                                     Reducing downtime and increasing productivity
                                 </div>
-                                <div class="solution-card">
+                                <div class="solution-card" data-section="firstSection" data-value="cards-fourth">
                                     Identify potential failures and receive notifications
                                 </div>
-                                <div class="solution-card">
+                                <div class="solution-card" data-section="firstSection" data-value="cards-fifth">
                                     Advanced analytics, detailed reports
                                 </div>
-                                <div class="solution-card">
+                                <div class="solution-card" data-section="firstSection" data-value="cards-sixth">
                                     Increase the performance of your machinery through IoT technology
                                 </div>
                             </div>
@@ -86,12 +100,12 @@
                     </div>
                 </div>
             </section>
-            <span class="separe-title" id="how-Works">How Works?</span>
+            <span class="separe-title" id="how-Works" data-section="header" data-value="how-works">How Works?</span>
             <section class="how-Works">
                 <div class="how-Works-container">
                     <div class="txtHowWorks">
-                        <h2>How does it work?</h2>
-                        <p>Our system is designed to be easy to use and integrate into your existing processes. With our intuitive interface, you can monitor the performance of your machines in real time, receive alerts about potential failures and generate detailed reports on production efficiency.</p>
+                        <h2 data-section="secondSection" data-value="title">How does it work?</h2>
+                        <p data-section="secondSection" data-value="text">Our system is designed to be easy to use and integrate into your existing processes. With our intuitive interface, you can monitor the performance of your machines in real time, receive alerts about potential failures and generate detailed reports on production efficiency.</p>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="799.031" height="618.114" viewBox="0 0 799.031 618.114" role="img" artist="Katerina Limpitsouni" source="https://undraw.co/">
                         <g id="Group_212" data-name="Group 212" transform="translate(-560 -231)">
@@ -141,16 +155,22 @@
                     </svg>
                 </div>
             </section>
-            <span class="separe-title" id="about-us">About us</span>
+            <span class="separe-title" id="about-us" data-section="header" data-value="about-us">About us</span>
             <section class="about-us">
                 <div class="about-us-container">
                     <div class="mission flxCnt">
                         <img class="element" src="Img/29750.jpg" alt="missionImg">
-                        <p class="element"><strong>Mission:</strong> provide textile companies with an efficient solution that optimizes machine performance through real-time monitoring, thereby increasing productivity and reducing downtime through timely maintenance notifications.</p>
+                        <p class="element">
+                            <strong data-section="mission" data-value="title">Mission:</strong> 
+                            <span data-section="mission" data-value="text">provide textile companies with an efficient solution that optimizes machine performance through real-time monitoring, thereby increasing productivity and reducing downtime through timely maintenance notifications.</span>
+                        </p>
                     </div>
                     <div class="vision flxCnt">
                         <img class="element" src="Img/20100.jpg" alt="vision Image">
-                        <p class="element"><strong>Vision:</strong> become the leading platform for the textile industry, offering a suitable solution that transforms the management of machinery and the production process, contributing to industrial growth and the competitiveness of textile companies.</p>
+                        <p class="element">
+                            <strong data-section="vision" data-value="title">Vision:</strong>
+                            <span data-section="vision" data-value="text">become the leading platform for the textile industry, offering a suitable solution that transforms the management of machinery and the production process, contributing to industrial growth and the competitiveness of textile companies.</span>
+                        </p>
                     </div>
                 </div>
                 <div class="imgPlanetContainer">
@@ -159,12 +179,12 @@
             </section>
         </main>
         <section class="contact">
-            <span class="separe-title" id="contact">Contact</span>
+            <span class="separe-title" id="contact" data-section="header" data-value="contact">Contact</span>
             <div class="contact-container">
                 <div class="direct-contact contactElement">
                     <i class="fa-solid fa-chevron-up"></i>
                     <i class="fa-solid fa-chevron-down"></i>
-                    <h2>Contact Information</h2>
+                    <h data-section="fouthSection" data-value="title">Contact Information</h>
                     <div class="contact-method phone">
                         <i class="fa-solid fa-phone"></i>
                         <p>+51 999 999 999</p>
@@ -182,24 +202,24 @@
                     <form action="#" method="">
                         <div class="userInfo">
                             <div class="name-container">
-                                <label for="name">Name</label>
+                                <label for="name" data-section="fouthSection" data-value="name">Name</label>
                                 <input id="name" type="text" name="name" required="">
                             </div>
                             <div class="email-container">
-                                <label for="email">Email</label>
+                                <label for="email" data-section="fouthSection" data-value="email">Email</label>
                                 <input id="email" type="email" name="email" required="">
                             </div>
                         </div>
                         <div class="subject-container">
-                            <label for="subject">Your Subject</label>
+                            <label for="subject" data-section="fouthSection" data-value="your-subject">Your Subject</label>
                             <input id="subject" type="text" name="subject" required="">
                         </div>
                         <div class="message-container">
-                            <label for="message">Message</label>
+                            <label for="message" data-section="fouthSection" data-value="message">Message</label>
                             <textarea id="message" name="message" required=""></textarea>
                         </div>
                         <div class="send-contact ">
-                            <button type="submit" class="sendBtn" role="button">Send</button>
+                            <button type="submit" class="sendBtn" role="button" data-section="fouthSection" data-value="send">Send</button>
                         </div>
                     </form>
                 </div>
@@ -212,8 +232,8 @@
         <footer class="footer-ctn">
             <div class="footer-ctn_hdr">
                 <ul class="ftr_hdr_terms">
-                    <li class="ftr_terms"><a href="#" class="link_terms">Terms of use</a></li>
-                    <li class="ftr_terms"><a href="#" class="link_terms">Privacy Policy</a></li>
+                    <li class="ftr_terms" ><a href="#" class="link_terms" data-section="footer" data-value="terms-use" >Terms of use</a></li>
+                    <li class="ftr_terms" ><a href="#" class="link_terms" data-section="footer" data-value="privacy-policy" >Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="info-ctn">

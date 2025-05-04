@@ -1,0 +1,45 @@
+{
+    "header": {
+        "solution": "Soluciones",
+        "how-works": "Cómo Funciona",
+        "about-us": "Sobre Nosotros",
+        "contact": "Contacto"
+    },
+    "web-title": {
+        "principal": "Máquinas que transforman calidad en cada puntada"
+    },
+    "firstSection": {
+        "title": "¿Por qué elegirnos?",
+        "text": "En DyeTex, estamos comprometidos a ofrecer soluciones innovadoras y de alta calidad para la industria textil. Nuestros productos están diseñados para mejorar la eficiencia y calidad de su producción. Ofreciendo soluciones como:",
+        "cards-first": "Monitoreo del rendimiento de las máquinas en tiempo real",
+        "cards-second": "Interfaz intuitiva y herramientas precisas",
+        "cards-third": "Reducción del tiempo de inactividad y aumento de la productividad",
+        "cards-fourth": "Identificación de posibles fallos y recepción de notificaciones",
+        "cards-fifth": "Análisis avanzados e informes detallados",
+        "cards-sixth": "Aumente el rendimiento de su maquinaria mediante tecnología IoT"
+    },
+    "secondSection": {
+        "title": "¿Cómo funciona?",
+        "text": "Nuestro sistema está diseñado para ser fácil de usar e integrarse en sus procesos existentes. Con nuestra interfaz intuitiva, puede monitorear el rendimiento de sus máquinas en tiempo real, recibir alertas sobre posibles fallos y generar informes detallados sobre la eficiencia de la producción."
+    },
+    "mission": {
+        "title": "Misión",
+        "text": "brindar a las empresas textiles una solución eficiente que optimice el rendimiento de las máquinas mediante el monitoreo en tiempo real, aumentando así la productividad y reduciendo los tiempos de inactividad mediante notificaciones de mantenimiento oportunas."
+    },
+    "vision": {
+        "title": "Visión",
+        "text": "convertirse en la plataforma líder para la industria textil, ofreciendo una solución adecuada que transforme la gestión de maquinaria y el proceso de producción, contribuyendo al crecimiento industrial y la competitividad de las empresas textiles."
+    },
+    "fouthSection": {
+        "title": "Información de Contacto",
+        "name": "Nombre",
+        "email": "Correo Electrónico",
+        "your-subject": "Asunto",
+        "message": "Mensaje",
+        "send": "Enviar"
+    },
+    "footer": {
+        "terms-use": "Términos de Uso",
+        "privacy-policy": "Política de Privacidad"
+    }
+}

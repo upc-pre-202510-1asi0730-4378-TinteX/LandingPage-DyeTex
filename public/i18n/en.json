@@ -1,0 +1,47 @@
+{
+    "header": {
+        "solution": "Solutions",
+        "how-works": "How Works?",
+        "about-us": "About Us",
+        "contact": "Contact"
+    },
+    "web-title": {
+        "principal": "Machines that transform quality into every stitch"
+    },
+    "firstSection": {
+        "title": "Why choose us?",
+        "text": "At DyeTex, we are committed to providing innovative, high-quality solutions for the textile industry. Our products are designed to improve the efficiency and quality of your production. Offering solutions as:",
+        "cards":{
+            "first": "Monitor machine performance in real time",
+            "second": "Intuitive interface and precise tools",
+            "third": "Reducing downtime and increasing productivity",
+            "fourth": "Identify potential failures and receive notifications",
+            "fifth": "Advanced analytics, detailed reports",
+            "sixth": "Increase the performance of your machinery through IoT technology"
+        }
+    },
+    "secondSection":{
+        "title": "How does it work?",
+        "text": "Our system is designed to be easy to use and integrate into your existing processes. With our intuitive interface, you can monitor the performance of your machines in real time, receive alerts about potential failures and generate detailed reports on production efficiency."
+    },
+    "mission": {
+        "title": "Mission",
+        "text": "provide textile companies with an efficient solution that optimizes machine performance through real-time monitoring, thereby increasing productivity and reducing downtime through timely maintenance notifications."
+    },
+    "vision":{
+        "title": "Vision",
+        "text": "become the leading platform for the textile industry, offering a suitable solution that transforms the management of machinery and the production process, contributing to industrial growth and the competitiveness of textile companies."
+    },
+    "fouthSection": {
+        "title": "Contact Information",
+        "name": "Name",
+        "email": "Email",
+        "your-subject": "Your Subject",
+        "message": "Message",
+        "send": "send"
+    },
+    "footer":{
+        "terms-use": "Terms of Use",
+        "privacy-policy": "Privacy Policy"
+    }
+}
