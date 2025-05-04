@@ -28,12 +28,49 @@ closeAIBox.addEventListener('click', () => {
   messageBoxMask.classList.toggle('visible');
 })
 
+
+
 /*@TODO: add the logic of VA here*/
 const messageInput = document.querySelector('.txtWriter');
 const sendButton = document.querySelector('.sendButton');
 const messageContainer = document.querySelector('.claraTalksBox');
 
+const messageValue = document.querySelectorAll('.fm-bx-value')
+const frequencyMsgBox = document.querySelector('.frecuency-message-box')
+
 let answerBot = "";
+
+let messageClick = "";
+
+let interMsgFrc = 0;
+
+
+
+/* scroll chat behaviour */
+let scrollBtm = () => {
+  messageContainer.scrollTop = messageContainer.scrollHeight
+}
+
+messageContainer.addEventListener("scroll", function(){
+  const isAtBottom = messageContainer.scrollTop + messageContainer.clientHeight >= messageContainer.scrollHeight - 1;
+  frequencyMsgBox.classList.toggle("invisible", !isAtBottom);
+})
+
+/*Frequency message query*/
+for (let i = 0; i < messageValue.length; i++) {
+  messageValue[i].addEventListener("click", () =>{
+    interMsgFrc++;
+    messageClick = messageValue[i].innerHTML
+    createChat(messageClick)
+    scrollBtm()
+
+    if (messageClick) {
+      frequencyMsgBox.classList.remove('frecuency-message-box')
+      frequencyMsgBox.classList.add('frecuency-message-box-hidden')
+    }
+  })
+
+}
 
 sendButton.addEventListener('click', () => {
 
@@ -42,10 +79,20 @@ sendButton.addEventListener('click', () => {
     return;
   }
 
+  createChat(messageInput.value)
+
+  scrollBtm()
+
+})
+
+
+
+
+let createChat = (mssg) => {
   /*Build a chat glove for human*/
   const humanGloveCnt = document.createElement('div');
   const humanGlove = document.createElement('div');
-  const textGlove = document.createTextNode(messageInput.value);
+  const textGlove = document.createTextNode(mssg);
   /*add classes for each div*/
   humanGlove.classList.add('humanMessage');
   humanGloveCnt.classList.add('humanTalksCont');
@@ -56,8 +103,8 @@ sendButton.addEventListener('click', () => {
 
   /*Doing the same process with Virtual Assitent*/
   
-  chatBox(messageInput.value);//call the function to get the answer
-  
+  chatBox(mssg);//call the function to get the answer
+
   const messageAIBox = document.createElement('div');
   const messageAI = document.createElement('div');
   const textAI = document.createTextNode(answerBot);
@@ -85,7 +132,11 @@ sendButton.addEventListener('click', () => {
   
   messageInput.value = ""; //clear the input box
 
-})
+
+}
+
+
+
 
 const chatBox = (sentence) => {
   let finalAnsw = "";
@@ -93,28 +144,28 @@ const chatBox = (sentence) => {
     if (sentence.includes("hello") || sentence.includes("Hello") || sentence.includes("hi")) {
      finalAnsw = "Hello! How can I assist you today?";
     }
-    else if( sentence.includes("location") || sentence.includes("Location")) {
+    else if(messageClick == "Where is the company location?") {
        finalAnsw = "We are located at Lima-Perú.";
     }
-    else if( sentence.includes("contact") || sentence.includes("Contact")) {
+    else if(messageClick == "How i can contact the company?") {
         finalAnsw = "You can contact us at supportintex@gmail.com our by our phone number: 123-456-7890.";
     }
     else if (sentence.includes("company") || sentence.includes("Company")) {
       finalAnsw = "We are a company that specializes in providing innovative solutions for textile machinery";
     }
-    else if (sentence.includes("offering") || sentence.includes("offer")) {
+    else if (messageClick == "Whats is the company is offering?") {
         finalAnsw = "We offer a range of services including textile machinery monitoring, maintenance, and support.";
     }
-    else if (sentence.includes("kind of reports")) {
+    else if (messageClick == "What kind of reports have the app?") {
         finalAnsw = "The system automatically generates reports on efficiency, output per hour, fault history"
     }  
     else if (sentence.includes("plants") || sentence.includes("plant") || sentence.includes("production lines")) { 
         finalAnsw = "We can monitor up to 5 plants or production lines at the same time, depending on the size of the plant and the number of machines.";    
     }
-    else if (sentence.includes("monitoring") || sentence.includes("monitor")) {     
+    else if (messageClick == "Is the app able to monitor the machines?") {     
         finalAnsw = "We can monitor the machines in real-time, providing you with up-to-date information on their performance and status.";
     }
-    else if(sentence.includes("benefits") || sentence.includes("benefit")) {
+    else if(messageClick == "What the benefits of the app?") {
         finalAnsw = "The benefits of our system include increased efficiency, reduced downtime, and improved production quality. Our solution can be integrated into your current machines using sensors and adaptive modules—no need to replace your existing equipment.";  
     }
     else {
@@ -123,6 +174,9 @@ const chatBox = (sentence) => {
 
   answerBot = finalAnsw;
 }
+
+
+
 
 ///////////////////////////////// nav toggle
 const navMenu = document.querySelector(".nav-links-tg")
