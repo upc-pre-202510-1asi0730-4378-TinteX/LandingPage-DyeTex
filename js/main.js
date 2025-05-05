@@ -64,7 +64,7 @@ for (let i = 0; i < messageValue.length; i++) {
     createChat(messageClick)
     scrollBtm()
 
-    if (messageClick) {
+    if (interMsgFrc) {
       frequencyMsgBox.classList.remove('frecuency-message-box')
       frequencyMsgBox.classList.add('frecuency-message-box-hidden')
     }
@@ -82,6 +82,9 @@ sendButton.addEventListener('click', () => {
   createChat(messageInput.value)
 
   scrollBtm()
+
+  frequencyMsgBox.classList.remove('frecuency-message-box')
+  frequencyMsgBox.classList.add('frecuency-message-box-hidden')
 
 })
 
@@ -132,7 +135,6 @@ let createChat = (mssg) => {
   
   messageInput.value = ""; //clear the input box
 
-
 }
 
 
@@ -141,31 +143,33 @@ let createChat = (mssg) => {
 const chatBox = (sentence) => {
   let finalAnsw = "";
 
+    sentence = sentence.trim();
+
     if (sentence.includes("hello") || sentence.includes("Hello") || sentence.includes("hi")) {
      finalAnsw = "Hello! How can I assist you today?";
     }
-    else if(messageClick == "Where is the company location?") {
+    else if(sentence == "Where is the company location?") {
        finalAnsw = "We are located at Lima-Perú.";
     }
-    else if(messageClick == "How i can contact the company?") {
+    else if(sentence == "How i can contact the company?") {
         finalAnsw = "You can contact us at supportintex@gmail.com our by our phone number: 123-456-7890.";
     }
     else if (sentence.includes("company") || sentence.includes("Company")) {
       finalAnsw = "We are a company that specializes in providing innovative solutions for textile machinery";
     }
-    else if (messageClick == "Whats is the company is offering?") {
+    else if (sentence == "Whats is the company is offering?") {
         finalAnsw = "We offer a range of services including textile machinery monitoring, maintenance, and support.";
     }
-    else if (messageClick == "What kind of reports have the app?") {
+    else if (sentence == "What kind of reports have the app?") {
         finalAnsw = "The system automatically generates reports on efficiency, output per hour, fault history"
     }  
     else if (sentence.includes("plants") || sentence.includes("plant") || sentence.includes("production lines")) { 
         finalAnsw = "We can monitor up to 5 plants or production lines at the same time, depending on the size of the plant and the number of machines.";    
     }
-    else if (messageClick == "Is the app able to monitor the machines?") {     
+    else if (sentence == "Is the app able to monitor the machines?") {     
         finalAnsw = "We can monitor the machines in real-time, providing you with up-to-date information on their performance and status.";
     }
-    else if(messageClick == "What the benefits of the app?") {
+    else if(sentence == "What the benefits of the app?") {
         finalAnsw = "The benefits of our system include increased efficiency, reduced downtime, and improved production quality. Our solution can be integrated into your current machines using sensors and adaptive modules—no need to replace your existing equipment.";  
     }
     else {
