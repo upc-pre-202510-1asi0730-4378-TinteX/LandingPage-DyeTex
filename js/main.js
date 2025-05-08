@@ -208,7 +208,7 @@ btnLanguageBox.addEventListener("click", () =>{
 
 langButtons.forEach((e) =>{
   e.addEventListener("click",() => {
-    fetch(`../i18n/${e.dataset.language}.json`)
+    fetch(`i18n/${e.dataset.language}.json`)
     .then(res => res.json())
     .then(data => {
       textsToChange.forEach((elem) =>{
