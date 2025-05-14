@@ -3,7 +3,8 @@
         "solution": "Solutions",
         "how-works": "How Works?",
         "about-us": "About Us",
-        "contact": "Contact"
+        "contact": "Contact",
+        "about-app": "About App"
     },
     "web-title": {
         "principal": "Machines that transform quality into every stitch"
@@ -11,14 +12,12 @@
     "firstSection": {
         "title": "Why choose us?",
         "text": "At DyeTex, we are committed to providing innovative, high-quality solutions for the textile industry. Our products are designed to improve the efficiency and quality of your production. Offering solutions as:",
-        "cards":{
-            "first": "Monitor machine performance in real time",
-            "second": "Intuitive interface and precise tools",
-            "third": "Reducing downtime and increasing productivity",
-            "fourth": "Identify potential failures and receive notifications",
-            "fifth": "Advanced analytics, detailed reports",
-            "sixth": "Increase the performance of your machinery through IoT technology"
-        }
+        "cards-first": "Monitor machine performance in real time",
+        "cards-second": "Intuitive interface and precise tools",
+        "cards-third": "Reduce downtime and increase productivity",
+        "cards-fourth": "Identify potential failures and receive notifications",
+        "cards-fifth": "Advanced analytics and detailed reports",
+        "cards-sixth": "Increase the performance of your machinery through IoT technology"
     },
     "secondSection":{
         "title": "How does it work?",
@@ -39,6 +38,13 @@
         "your-subject": "Your Subject",
         "message": "Message",
         "send": "send"
+    },
+    "appSection": {
+        "question-msg": "Looking to reduce downtime, cut costs, and boost machine efficiency?",
+        "with": "With",
+        "answ-msg": "you get real-time monitoring, smart alerts, and detailed reports to take your operations to the next level.",
+        "motivate-msg": "Try it today and turn your factory into a smart facility",
+        "purpose": "DyeTex aims to drive operational efficiency in the textile industry through the use of advanced technology"
     },
     "footer":{
         "terms-use": "Terms of Use",

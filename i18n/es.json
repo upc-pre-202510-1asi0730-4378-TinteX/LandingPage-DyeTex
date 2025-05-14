@@ -3,7 +3,8 @@
         "solution": "Soluciones",
         "how-works": "Cómo Funciona",
         "about-us": "Sobre Nosotros",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "about-app": "Sobre la App"
     },
     "web-title": {
         "principal": "Máquinas que transforman calidad en cada puntada"
@@ -38,6 +39,13 @@
         "message": "Mensaje",
         "send": "Enviar"
     },
+    "appSection": {
+        "question-msg": "¿Buscas reducir tiempos de inactividad, ahorrar costos y mejorar la eficiencia de tus máquinas?",
+        "with": "Con",
+        "answ-msg": "obtienes monitoreo en tiempo real, alertas inteligentes y reportes detallados para llevar tus operaciones al siguiente nivel.",
+        "motivate-msg": "Pruébala hoy y convierte tu planta en una fábrica inteligente",
+        "purpose": "DyeTex tiene como objetivo impulsar la eficiencia operativa en la industria textil mediante el uso de tecnología avanzada"
+    },   
     "footer": {
         "terms-use": "Términos de Uso",
         "privacy-policy": "Política de Privacidad"

@@ -3,7 +3,8 @@
         "solution": "Solutions",
         "how-works": "Fonctionnement",
         "about-us": "À Propos",
-        "contact": "Contact"
+        "contact": "Contact",
+        "about-app": "À propos de l'application"
     },
     "web-title": {
         "principal": "Des machines qui transforment la qualité à chaque point"
@@ -37,6 +38,13 @@
         "your-subject": "Objet",
         "message": "Message",
         "send": "Envoyer"
+    },
+    "appSection": {
+        "question-msg": "Vous cherchez à réduire les temps d'arrêt, diminuer les coûts et améliorer l'efficacité de vos machines ?",
+        "with": "Avec",
+        "answ-msg": "vous bénéficiez d'une surveillance en temps réel, d'alertes intelligentes et de rapports détaillés pour faire passer vos opérations au niveau supérieur.",
+        "motivate-msg": "Essayez-la dès aujourd'hui et transformez votre usine en une usine intelligente",
+        "purpose": "DyeTex vise à améliorer l'efficacité opérationnelle dans l'industrie textile grâce à l'utilisation de technologies avancées"
     },
     "footer": {
         "terms-use": "Conditions d'utilisation",
