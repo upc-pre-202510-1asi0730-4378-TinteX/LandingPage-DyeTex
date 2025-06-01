@@ -2,9 +2,9 @@
     "header": {
         "solution": "Solutions",
         "how-works": "How Works?",
-        "about-us": "About Us",
+        "about-us": "About the Team",
         "contact": "Contact",
-        "about-app": "About App"
+        "about-app": "About the Product"
     },
     "web-title": {
         "principal": "Machines that transform quality into every stitch"
@@ -49,5 +49,15 @@
     "footer":{
         "terms-use": "Terms of Use",
         "privacy-policy": "Privacy Policy"
+    },
+    "about-the-team":{
+        "title": "Meet the team behind DyeTex",
+        "text": "A multidisciplinary team dedicated to transforming the textile industry through smart solutions."
+    },
+    "btn-call-action":{
+        "join-now": "Join Now",
+        "request-demo": "Request Demo",
+        "transform": "Transform your textile industry with DyeTex",
+        "textScnd": "Monitor, anticipate, and respond before a failure occurs. Digitize your plant today!"
     }
 }

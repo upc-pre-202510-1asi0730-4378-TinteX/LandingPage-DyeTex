@@ -2,9 +2,9 @@
     "header": {
         "solution": "Solutions",
         "how-works": "Fonctionnement",
-        "about-us": "À Propos",
+        "about-us": "À propos de l'équipe",
         "contact": "Contact",
-        "about-app": "À propos de l'application"
+        "about-app": "À propos du produit"
     },
     "web-title": {
         "principal": "Des machines qui transforment la qualité à chaque point"
@@ -49,5 +49,15 @@
     "footer": {
         "terms-use": "Conditions d'utilisation",
         "privacy-policy": "Politique de confidentialité"
+    },
+    "about-the-team": {
+        "title": "Rencontrez l'équipe derrière DyeTex",
+        "text": "Une équipe multidisciplinaire dédiée à transformer l'industrie textile grâce à des solutions intelligentes."
+    },
+    "btn-call-action": {
+        "join-now": "Rejoindre maintenant",
+        "request-demo": "Demander une démo",
+        "transform": "Transformez votre industrie textile avec DyeTex",
+        "textScnd": "Surveillez, anticipez et réagissez avant qu'une panne ne survienne. Numérisez votre usine dès aujourd'hui !"
     }
 }
